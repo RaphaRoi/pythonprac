@@ -6,16 +6,17 @@ player = input('rack (r), paper (p) or scissors (s)?')
 
 print('')
 
-if(player =='r'):
-  print('O', 'vs', end=' ')
+if(player == 'r'):
+    print('O', 'vs', end=' ')
 
-if(player =='p'):
-  print('___', 'vs', end=' ')
+if(player == 'p'):
+    print('___', 'vs', end=' ')
 
-if(player =='s'):
-  print('>8', 'vs', end=' ')
+if(player == 's'):
+    print('>8', 'vs', end=' ')
 
-chosen = randint(1,3)
+chosen = randint(1, 3)
+
 #print(chosen)
 
 
